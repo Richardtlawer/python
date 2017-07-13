@@ -1,9 +1,11 @@
+# test if it is even number
 i=8
 if(i%2):
    print "odd Number"
 else:
    print " Even number"
 
+# print even number function
 
 def even():
   eve1=int(raw_input("type an even nuber"))
@@ -14,5 +16,7 @@ def even():
       add= eve1 + eve2 + eve3 +eve4
       print add
   else:
-      print " odd number"     
+      print " odd number"   
+
+# call function  
 even()
